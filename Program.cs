@@ -2,6 +2,7 @@
 using TaskOnCSharp._28_03_2023;
 using TaskOnCSharp._30_03_2023;
 using TaskOnCSharp._31_03_2023;
+using TaskOnCSharp._04_04_2023;
 
 namespace TaskOnCSharp
 {
@@ -35,9 +36,13 @@ namespace TaskOnCSharp
             //ArrangementAsync arrangementAsync = new ArrangementAsync();
             //arrangementAsync.ArrangementAsyncMain();
 
-            CalculateOvertime calculateOvertime = new CalculateOvertime();
-            calculateOvertime.MainBlock();
+            //CalculateOvertime calculateOvertime = new CalculateOvertime();
+            //calculateOvertime.MainBlock();
+            string[] hand = { "10h", "Jh", "Qh", "Ah", "Kh" };
+            //string[] hand = { "10h", "10s", "9c", "9s", "Kd" };
 
+            Pokers pokerHandRanking = new Pokers();
+            pokerHandRanking.PokerHandRanking(hand);
         }
     }
 }
